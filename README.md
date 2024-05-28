@@ -1,4 +1,5 @@
-<h1>Script para verificar IP'S em duplicidade em filas de impressão.</h1>
+<h1>IP-DUPLICATE</h1>
+<h2> Script para verificar IP'S em duplicidade em filas de impressão </h2>
 
 ``` powershell
 # Obter uma lista de todas as impressoras instaladas
@@ -19,3 +20,5 @@ if ($frequenciaIPs) {
     Write-Host "Não há IPs de impressoras duplicados."
 }
 ````
+
+
