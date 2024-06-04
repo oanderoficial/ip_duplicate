@@ -21,4 +21,27 @@ if ($frequenciaIPs) {
 }
 ````
 
+<strong> cmdlet Get-Printer </strong> 
+<p>Recupera uma lista de impressoras instaladas em um computador.</p>
+
+<strong> Sintaxe </strong> 
+
+```ps1
+Get-Printer
+   [[-Name] <String[]>]
+   [-ComputerName <String>]
+   [-Full]
+   [-CimSession <CimSession[]>]
+   [-ThrottleLimit <Int32>]
+   [-AsJob]
+   [<CommonParameters>]
+```
+
+<strong> Obtenha uma lista de impressoras </strong> 
+
+```ps1
+Get-Printer
+```
+
+
 
