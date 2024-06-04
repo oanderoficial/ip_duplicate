@@ -22,6 +22,9 @@ if ($frequenciaIPs) {
 ````
 
 <strong> cmdlet Get-Printer </strong> 
+
+<strong> Documentação: </strong> https://learn.microsoft.com/en-us/powershell/module/printmanagement/get-printer?view=windowsserver2022-ps
+
 <p>Recupera uma lista de impressoras instaladas em um computador.</p>
 
 <strong> Sintaxe </strong> 
