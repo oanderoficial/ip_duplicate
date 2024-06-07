@@ -45,6 +45,16 @@ Get-Printer
 ```ps1
 Get-Printer
 ```
+<strong> Obtenha as informações de uma impressora específica: </strong> 
+
+```ps1
+Get-Printer -Name "Microsoft XPS Document Writer"
+```
+<strong> Obtenha informações detalhadas para uma impressora específica: </strong> 
+
+```ps1
+Get-Printer -Name "Microsoft XPS Document Writer" | Format-List
+```
 
 
 
