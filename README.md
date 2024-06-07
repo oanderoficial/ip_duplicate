@@ -55,6 +55,15 @@ Get-Printer -Name "Microsoft XPS Document Writer"
 ```ps1
 Get-Printer -Name "Microsoft XPS Document Writer" | Format-List
 ```
+<strong> Obtenha uma lista de impressoras em um computador remoto: </strong> 
 
+```ps1
+Get-Printer -ComputerName PrintServer
+```
 
+<strong> Obtenha uma lista de objetos de impressora e renomeie as impressoras: </strong> 
 
+```ps1
+$Printer = Get-Printer -Name "Microsoft XPS Document Writer"
+Rename-Printer -InputObject $printer "MXDW"
+```
